@@ -79,15 +79,15 @@ function enemyStart(){
 
     //画像読み込み
     let enemyHandA = document.createElement("img");
-    enemyHandA.src = "../image/backHandA.png";
+    enemyHandA.src = "https://tokonatsu3825.github.io/janken/image/backHandA.png";
     enemyHandA.id = "imageAnemy";
 
     let enemyHandB = document.createElement("img");
-    enemyHandB.src = "../image/backHandB.png";
+    enemyHandB.src = "https://tokonatsu3825.github.io/janken/image/backHandB.png";
     enemyHandB.id = "imageAnemy";
     
     let enemyHandC = document.createElement("img");
-    enemyHandC.src = "../image/backHandC.png";
+    enemyHandC.src = "https://tokonatsu3825.github.io/janken/image/backHandC.png";
     enemyHandC.id = "imageAnemy";
 
 
