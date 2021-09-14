@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/system2.js"></script>
+    <meta charset="UTF-8">
+    <title>じゃんけん</title>
+</head>
+<body>
+    <div id="board">
+        <div id="imageArea"></div>
+        <img src="image/handA.png" class="handImg" id="handA" onclick="choiced('A')" onmouseover="ride(1)" onmouseout="leave(1)"> 
+        <img src="image/handB.png" class="handImg" id="handB" onclick="choiced('B')" onmouseover="ride(2)" onmouseout="leave(2)">
+        <img src="image/handC.png" class="handImg" id="handC" onclick="choiced('C')" onmouseover="ride(3)" onmouseout="leave(3)"> 
+        <div id="textArea"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#board{
+    width: 800px;
+    height: 600px;
+    background-color:gray;
+}
+
+/* 手の位置設定*/
+.handImg{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 400px;
+}
+
+#handA{
+    position: absolute;
+    left: 50px;
+}
+
+#handB{
+    position: absolute;
+    left: 300px;
+}
+
+#handC{
+    position: absolute;
+    left: 550px;
+}
+
+#imageAnemy{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 200px;
+}
+
+/* ゲーム文字*/
+#textArea{
+    font-size: 800%;
+    position: absolute;
+    left: 50px;
+}
